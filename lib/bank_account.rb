@@ -6,9 +6,7 @@ def initialize(account=nil,name)
   @account = account
    @name = name 
  @balance = 1000
- 
- 
- @status = "open"
+  @status = "open"
   end
   def deposit(deposit)
   @balance = @balance + deposit
