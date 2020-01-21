@@ -18,6 +18,6 @@ def initialize(account=nil,name)
    @status == "open" && @balance> 0 ? true:false 
  end 
  def close_account
-   @status = "closed"
+   self.status = "closed"
 end 
 end 
